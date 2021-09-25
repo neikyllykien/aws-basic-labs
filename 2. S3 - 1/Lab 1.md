@@ -1,4 +1,4 @@
-1. Tạo 1 bucket mới
+- Tạo 1 bucket mới
 
 ```
 Bucket name: codestart-t9-2021
@@ -17,6 +17,16 @@ AWS Region: ap-southeast-1
 
 - Xóa File/Di chuyển file.
 
+![](images/delete-move.gif?raw=true)
+
 - Thay đổi các thông tin metadata.
+
+![](images/metadata.gif?raw=true)
+
 - Thay đổi quyền truy cập file.
+
+![](images/permission.gif?raw=true)
+
 - Gắn tag, ...
+
+![](images/tag.gif?raw=true)
