@@ -30,3 +30,30 @@ AWS Region: ap-southeast-1
 - Gắn tag, ...
 
 ![](images/tag.gif?raw=true)
+
+
+S3 Bucket Policy chống delete bucket
+```
+
+{
+  "Id": "ExamplePolicyId12345678",
+  "Statement": [
+    {
+      "Sid": "ExampleStmtSid12345678",
+      "Action": [
+        "s3:DeleteBucket"
+      ],
+      "Effect": "Deny",
+      "Resource": "arn:aws:s3:::testdelete1222",
+      "Principal": {
+        "AWS": [
+          "*"
+        ]
+      }
+    }
+  ]
+}
+
+```
+
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html
