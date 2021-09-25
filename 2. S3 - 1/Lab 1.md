@@ -5,7 +5,7 @@ Bucket name: codestart-t9-2021
 AWS Region: ap-southeast-1
 ```
 
-![1](2. S3 - 1/images/2021-09-25_17-30-11.png)
+![1](/images/2021-09-25_17-30-11.png)
 
 ![](images\2021-09-25_17-30-11.png)
 
