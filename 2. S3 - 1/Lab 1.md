@@ -13,7 +13,7 @@ AWS Region: ap-southeast-1
 
 - Upload File/Folder mới
 
-![](images/upload-file-folder?raw=true)
+![](images/upload-file-folder.gif?raw=true)
 
 - Xóa File/Di chuyển file.
 
