@@ -1,0 +1,14 @@
+{
+  "name": "presigned-url-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "presigned-url.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.996.0"
+  }
+}
