@@ -20,13 +20,16 @@ Note: Update lại ARN của bucket. Ví dụ ```"Resource": "arn:aws:s3:::codes
 ```
 
 * Enable Static Website in S3 (property)
+
 (Optional) Redirect config rule:
 
 
 * Kích hoạt Static website hosting
 
 (Vào Properties --> Static website hosting)
+
 Static website hosting: Chọn Enable
+
 Index document: index.html
 
 ```
@@ -49,15 +52,17 @@ Truy cập endpoint
 
 Vào dịch vụ CloudFront: https://console.aws.amazon.com/cloudfront/v3/home?region=ap-southeast-1#/welcome
 
-B1: Nhấn Create a CloudFront distribution
-B2: Ở màn hình Create distribution
+**B1**: Nhấn Create a CloudFront distribution
+
+**B2**: Ở màn hình Create distribution
 
 Origin domain: Chọn bucket s3 vừa tạo (Ví dụ: codestar-static-demo.s3.ap-southeast-1.amazonaws.com)
+
 Nhấn **Create distribution**
 
 Note: Chờ một vài phút đề CloudFront được khởi tạo
 
-B3: Tạo cache behaviors 5 phút
+**B3**: Tạo cache behaviors 5 phút
 
 Edit record ```Default (*)```
 
@@ -65,7 +70,7 @@ Edit record ```Default (*)```
 
 Minimum TTL: 300 (5 phút)
 
-B4: Save cache
+**B4**: Save cache
 
 Vào https://d203u9jphuws1c.cloudfront.net/index.html
 
