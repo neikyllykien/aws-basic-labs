@@ -70,3 +70,8 @@ B4: Save cache
 Vào https://d203u9jphuws1c.cloudfront.net/index.html
 
 
+
+
+* Lambda Extract S3:
+
+https://kipalog.kaopiz.com/posts/Multiple-file-upload-into-Amazon-s3-bucket
