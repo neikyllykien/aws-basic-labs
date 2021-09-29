@@ -51,3 +51,17 @@ Nếu thành công thì sẽ nhận được status 200
 
 Note: Trường hợp gặp lỗi Access Denied thì add thêm quyền cho user đang sử dụng.
 
+### Tạo bằng CLI
+
+```
+aws s3 presign s3://mybucket/myobject
+
+```
+Sửa lại ```mybucket``` và ```myobject``` của mình.
+
+Nếu tên file có dấu cách thì mình sẽ thêm dấu nháy kép vào Object Key
+
+```
+aws s3 presign "s3://codestar-t9-2021/image (1).png"
+
+```
