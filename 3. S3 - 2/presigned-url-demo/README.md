@@ -5,12 +5,10 @@ Chúng ta sẽ tạo thử Presign URL để download một object và upload 1 
 Cách tạo Presigned URL:
 ### Tạo bằng code:
 Yêu cầu:
-```
-Node JS
-AWS CLI (đã chạy aws configure và nhập credentials)
-Postman
-```
 
+- Node JS [https://nodejs.dev/](https://nodejs.dev/)
+- AWS CLI (đã chạy aws configure và nhập credentials) [https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
+- Postman [https://www.postman.com/](https://www.postman.com/)
 
 1. Vào folder **presigned-url-demo**
 
