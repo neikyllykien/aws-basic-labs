@@ -1,4 +1,4 @@
-# 1. PreSigned URL
+# I. Pre-signed URL
 
 Chúng ta sẽ tạo thử Presign URL để download một object và upload 1 object
 
@@ -12,21 +12,21 @@ Postman
 ```
 
 
-Vào folder presigned-url-demo
+1. Vào folder **presigned-url-demo**
 
-Sửa nội dung file **presigned-url.js**:
+2. Sửa nội dung file **presigned-url.js**:
 
 Cập nhật giá trị các biến sau:
  - myBucket: Tên bucket của mình (Ví dụ: ```'codestar-t9-2021'```)
  - myKey: Tên object muốn download hoặc upload (Ví dụ: ```'image (1).png'```)
 
 
-Chạy lệnh để thực thi
+3. Chạy lệnh để thực thi
 ```
 node presigned-url.js
 ```
 
-Sau khi thực thi thành công sẽ nhận được một đường dẫn như sau:
+4. Sau khi thực thi thành công sẽ nhận được một đường dẫn như sau:
 
 ```
 
@@ -38,20 +38,19 @@ https://codestar-t9-2021.s3.ap-southeast-1.amazonaws.com/image%20%282%29.png?X-A
 
 **Note**: Người nhận được link sẽ nhận truy cập được file.
 
-Thử upload 1 file lên S3 bằng PreSigned URL:
-
+5. Thử upload 1 file lên S3 bằng Pre-signed URL:
 - Copy Upload URL vào Postman
-- Chọn Method PUT
-- Ấn vào Body chọn Binary và chọn file cần upload
+- Chọn Method **PUT**
+- Ấn vào **Body** chọn **Binary** và chọn file cần upload
 - Ấn Send
 
-Nếu thành công thì sẽ nhận được status 200
+Nếu thành công thì sẽ nhận được status **200**
 
-![](images/2021-09-29_13-57-11.png)
+![](images/2021-09-29_13-57-11.png?raw=true)
 
 Note: Trường hợp gặp lỗi Access Denied thì add thêm quyền cho user đang sử dụng.
 
-### Tạo bằng CLI
+# II. Tạo bằng CLI
 
 ```
 aws s3 presign s3://mybucket/myobject
