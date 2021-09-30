@@ -23,6 +23,12 @@ Cập nhật giá trị các biến sau:
 
 3. Chạy lệnh để thực thi
 ```
+# Install npm package
+
+npm i
+
+# Thực thi
+
 node presigned-url.js
 ```
 
