@@ -15,8 +15,8 @@ Yêu cầu:
 2. Sửa nội dung file **presigned-url.js**:
 
 Cập nhật giá trị các biến sau:
- - myBucket: Tên bucket của mình (Ví dụ: ```'codestar-t9-2021'```)
- - myKey: Tên object muốn download hoặc upload (Ví dụ: ```'image (1).png'```)
+ - **myBucket**: Tên bucket của mình (Ví dụ: ```'codestar-t9-2021'```)
+ - **myKey**: Tên object muốn download hoặc upload (Ví dụ: ```'image (1).png'```)
 
 
 3. Chạy lệnh để thực thi
